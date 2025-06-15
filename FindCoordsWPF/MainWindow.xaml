@@ -1,0 +1,14 @@
+﻿<Window x:Class="FindCoordsWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="FindCoords" Height="550" Width="600">
+    <Grid>
+        <Canvas Name="DrawingCanvas" Width="450" Height="450" Background="White" Margin="10,10,140,74"/>
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Right" Width="130" Margin="0,5,5,5">
+            <ItemsControl Name="PointsInputPanel">
+                <!-- Элементы будут добавлены из кода -->
+            </ItemsControl>
+            <Button Name="CheckButton" Content="Проверить" Margin="0,10,0,0" Height="50" Click="CheckButton_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
